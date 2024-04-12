@@ -6,4 +6,3 @@ test('Check header', async ({ page }) => {
     const text = await homeLink.textContent();
     expect(text).toBe('View My Grades');
   });
-  
